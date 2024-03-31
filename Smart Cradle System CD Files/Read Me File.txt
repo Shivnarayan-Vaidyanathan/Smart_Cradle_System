@@ -1,0 +1,36 @@
+Following are the instruction to use smart cradle system:
+
+1. First install advanced ip scanner and mobaxterm applications in pc.
+
+2. Using raspberry pi imager application mount raspberry pi os in sd card.For this purpose a 16 gb sd card is peferable (minimum requirement).
+ 
+3. Connect pc and raspberry pi using ethernet cable.
+
+4. Following is a video link which describes how to connect raspberry pi and pc using ethernet cable.
+
+   https://www.youtube.com/watch?v=AJ7skYS5bjI
+
+5. Once ethernet connection between pc and raspberry pi is setup,open advanced ip scanner and scan for raspberry pi in network.
+
+6. Copy ip address of raspberry pi and open mobaxterm application.Click new session and paste the ip address in remote host box under basic ssh settings.
+
+7. Now press ok and a terminal window will appear.Login as pi with password raspberry (default).
+
+8. Type startlxde to boot into raspberry pi remotely.
+
+9. Copy and paste all the codes required to run smart cradle by creating a folder in raspberry pi os.
+
+10. Then right click main code in newly created folder and choose thonny ide.Once the ide pops up press run to run smart cradle.
+
+11. All data such as temperature,humidity,wetness,movement,servo motor and e-mail values are available in google firebase.
+
+12. Now copy and paste the google firebase link present in google firebase and paper publication folder in browser.Press enter.
+
+13. Once google firebase realtime database window opens,you can change the servo motor or e-mail value as 0 or 1 to run servo motor and pi camera.
+
+14. Here 0 means off and 1 means on.
+
+
+NOTE: For convenience smart cradle system codes are already present in a folder named baby in raspberry pi os which is zipped in softwares folder.User just needs to mount the os which has been zipped in softwares folder onto sd card.   
+
+ 
